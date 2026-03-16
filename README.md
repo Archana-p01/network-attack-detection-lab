@@ -1,5 +1,5 @@
 # network-attack-detection-lab
-Detecting real network attacks using Suricata IDS, Splunk SIEM, Kali Linux and Windows 10. Covers TCP/UDP attack generation, packet analysis with tshark, and log investigation with Splunk SPL queries.
+Detecting real network attacks using Suricata IDS, Splunk SIEM, Kali Linux. Covers TCP/UDP attack generation, packet analysis with tshark, and log investigation with Splunk SPL queries.
 
 A home SOC lab built to generate, capture, and investigate 
 real network attacks using industry-standard security tools.
@@ -9,9 +9,8 @@ real network attacks using industry-standard security tools.
 | Machine | OS | Role |
 |---|---|---|
 | Kali Linux | Kali Rolling | Attacker |
-| Windows 10 | Windows 10 | Victim |
-| Ubuntu + Suricata | Ubuntu 22.04 | IDS sensor |
-| Ubuntu + Splunk | Ubuntu 22.04 | SIEM |
+| Ubuntu + Suricata | Ubuntu 22.04 | IDS sensor + Victim |
+| Ubuntu + Splunk | Ubuntu 22.04 | Splunk SIEM |
 
 ## Tools Used
 
